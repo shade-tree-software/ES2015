@@ -1,9 +1,9 @@
 // spread operator
 
-function foodPreferences(favorite, ok, yucky){
-  console.log('I like ' + favorite);
-  console.log(ok + ' are ok');
-  console.log("I can't stand " + yucky);
+function foodPreferences(firstChoice, secondChoice, thirdChoice){
+  console.log('My first choice is ' + firstChoice);
+  console.log('My second choice is ' + secondChoice);
+  console.log('My third choice is ' + thirdChoice);
 }
 
-foodPreferences();
+foodPreferences('apple', 'pear', 'bacon');
