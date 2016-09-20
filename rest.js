@@ -1,8 +1,8 @@
 // rest parameters
 
-function logAll(first, ...allTheRest){
-  console.log(first);
-  console.log(allTheRest);
+function logAll(param1, ...otherParams){
+  console.log(param1);
+  console.log(otherParams);
 }
   
 logAll("jack", "jill", "bob", "sue");
